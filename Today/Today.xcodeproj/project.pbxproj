@@ -16,6 +16,7 @@
 		38EEC2FD27F366FD003C8946 /* TodayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EEC2FC27F366FD003C8946 /* TodayTests.swift */; };
 		38EEC30727F366FD003C8946 /* TodayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EEC30627F366FD003C8946 /* TodayUITests.swift */; };
 		38EEC30927F366FD003C8946 /* TodayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EEC30827F366FD003C8946 /* TodayUITestsLaunchTests.swift */; };
+		38EEC31727F36A49003C8946 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EEC31627F36A49003C8946 /* Reminder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		38EEC30227F366FD003C8946 /* TodayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38EEC30627F366FD003C8946 /* TodayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayUITests.swift; sourceTree = "<group>"; };
 		38EEC30827F366FD003C8946 /* TodayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		38EEC31627F36A49003C8946 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		38EEC2E427F366FC003C8946 /* Today */ = {
 			isa = PBXGroup;
 			children = (
+				38EEC31527F369F5003C8946 /* Models */,
 				38EEC2E527F366FC003C8946 /* AppDelegate.swift */,
 				38EEC2E727F366FC003C8946 /* SceneDelegate.swift */,
 				38EEC2E927F366FC003C8946 /* ViewController.swift */,
@@ -125,6 +128,14 @@
 				38EEC30827F366FD003C8946 /* TodayUITestsLaunchTests.swift */,
 			);
 			path = TodayUITests;
+			sourceTree = "<group>";
+		};
+		38EEC31527F369F5003C8946 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				38EEC31627F36A49003C8946 /* Reminder.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +272,7 @@
 				38EEC2EA27F366FC003C8946 /* ViewController.swift in Sources */,
 				38EEC2E627F366FC003C8946 /* AppDelegate.swift in Sources */,
 				38EEC2E827F366FC003C8946 /* SceneDelegate.swift in Sources */,
+				38EEC31727F36A49003C8946 /* Reminder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
